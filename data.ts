@@ -2,36 +2,36 @@ import { Project, Experience, Certification, CaseStudy, MediumArticle } from './
 
 export const portfolioData = {
   name: 'Tanmay Kalbande',
-  title: 'Data Scientist & AI Specialist',
-  about: "Data science enthusiast skilled in statistical analysis, machine learning, and data visualization. Passionate about uncovering insights from complex datasets to drive informed decision-making. Focused on contributing to impactful projects and staying updated with the latest advancements in data science.",
+  title: 'Data Scientist & AI Enthusiast',
+  about: "I build AI systems and data solutions that solve real problems. Started as a Data Analyst Trainee, now working as a Software Engineer building multi-agent AI systems at Capgemini. With 1.8 years in the field, I've shipped predictive models, customer segmentation tools, AI-powered automation, and a bunch of side projects that scratch my own itches. I love the challenge of turning messy data into insights and building tools that actually make people's work easier.",
   readme: `
 # Welcome to My Portfolio OS!
 
-This is an interactive desktop experience built to showcase my skills and projects.
+This is an interactive desktop experience I built to showcase my work in a fun way.
 
 ## Features:
-- **Draggable Windows:** Grab the title bar to move windows around.
-- **Snapping Desktop Icons:** Drag and drop desktop icons; they'll snap to the grid.
-- **App Dock:** Launch my main applications from the dock.
-- **AI Assistant:** Ask the AI anything about my portfolio.
-- **Terminal:** Use command-line instructions to navigate my profile.
-- **Customization:** Change the theme and wallpaper in the Settings app.
+- **Draggable Windows:** Move things around—just like a real desktop!
+- **Snapping Desktop Icons:** Drag and drop icons; they'll snap to the grid.
+- **App Dock:** Quick access to my main projects and tools.
+- **AI Assistant:** Ask questions about my work and experience.
+- **Terminal:** For those who like the command-line approach.
+- **Customization:** Play with themes and wallpapers in Settings.
 
-Feel free to explore and get in touch!
+I built this because I wanted my portfolio to feel less like a resume and more like an experience. Hope you enjoy exploring!
 `,
   stats: {
-    experience: "1.10",
+    experience: "1.8",
     projects: 11,
     certifications: 4,
   },
   technicalSummary: [
-    "Hands-on in end-to-end development of predictive modeling solutions.",
-    "Proficient in Python (NumPy, Pandas, Scikit-learn, Jupyter).",
-    "SQL: SQL Server, Spark.",
-    "Analytics: Machine learning (supervised/unsupervised), deep learning, neural networks, NLP.",
-    "Data Visualization: Matplotlib, Seaborn, Tableau, PowerBI.",
-    "Big Data: Hadoop, Spark.",
-    "Ethical AI: Understanding of ethical considerations in AI development and deployment."
+    "1.8 years building AI systems and data solutions—from service desk automation to predictive models.",
+    "Strong in Python (NumPy, Pandas, Scikit-learn, Flask) with real production experience.",
+    "Hands-on with SQL (SQL Server, Spark) for data pipelines and optimization.",
+    "Machine learning: Random Forest, K-Means clustering, collaborative filtering, and multi-agent AI systems.",
+    "Data Visualization: Tableau dashboards that people actually use, plus Matplotlib and Seaborn.",
+    "Experience with Big Data tools: Hadoop, Spark.",
+    "Genuinely care about building AI that's reliable and ethical."
   ],
   tools: {
     languages: ["Python", "SQL", "R", "C"],
@@ -51,13 +51,13 @@ Feel free to explore and get in touch!
   },
   experience: [
     {
-      role: "Analyst",
+      role: "Software Engineer",
       company: "Capgemini",
-      duration: "March 2024 - Present",
+      duration: "Apr 2024 - Present",
       duties: [
-        "Utilized advanced analytical techniques for actionable insights.",
-        "Collaborated with cross-functional teams to translate data findings into business strategies.",
-        "Designed and implemented interactive dashboards for visualizing key metrics."
+        "Developed a multi-agent AI work note formatter using Flask and AI models, transforming messy service desk notes into structured knowledge base entries—cut resolution time by 35%.",
+        "Built a real-time quality assurance pipeline with dual AI agents. Watching it catch errors before they hit production is still pretty cool. Improved knowledge base reliability by 60%.",
+        "Designed a knowledge generation engine that made team documentation actually accessible. Increased knowledge accessibility by 45%."
       ]
     },
     {
@@ -65,9 +65,11 @@ Feel free to explore and get in touch!
       company: "Rubixe",
       duration: "Nov 2022 - Dec 2023",
       duties: [
-        "Worked with teams to gather, clean, and organize data.",
-        "Explored data patterns and trends to shape practical strategies.",
-        "Created clear reports and interactive visualizations."
+        "Built predictive maintenance models using Random Forest. Seeing equipment downtime drop by 25% made all those late nights worth it.",
+        "Developed a customer segmentation system using K-Means clustering—helped the marketing team finally understand their different customer groups.",
+        "Created lead scoring models with 85% accuracy. Sales team efficiency jumped 20%, and they actually thanked me for it.",
+        "Built a movie recommendation system using collaborative filtering. One of my favorite projects—got to play with user ratings data and see real patterns emerge.",
+        "Designed interactive Tableau dashboards that turned complex data into insights people could actually act on."
       ]
     }
   ] as Experience[],
@@ -75,7 +77,7 @@ Feel free to explore and get in touch!
     {
       category: "AI Project",
       title: "Pustakam - The AI Book Writer",
-      description: "An AI-powered application that generates complete, structured books on any topic, maintaining context across chapters. Supports multiple AI models and operates locally for privacy.",
+      description: "I built this because I was terrible at sticking with scattered learning resources. Pustakam generates complete, structured books on any topic while maintaining context across chapters. It's local-first for privacy and supports multiple AI models.",
       links: {
         live: "https://pustakam-ai.vercel.app/"
       },
@@ -84,7 +86,7 @@ Feel free to explore and get in touch!
     {
       category: "AI Project",
       title: "Ai-Tutor - Your Personal AI Tutor",
-      description: "A personalized learning environment built around Google's Gemma. Features different AI personas, context-aware quizzes, and interactive learning-journey flowcharts.",
+      description: "My answer to chaotic study sessions. Built around Google's Gemma, it features different AI teaching personas, context-aware quizzes, and interactive learning flowcharts. Everything I wished existed when I was cramming for exams.",
       links: {
         live: "https://ai-tutor-test-it-out-here.vercel.app/"
       },
@@ -93,51 +95,51 @@ Feel free to explore and get in touch!
     {
       category: "Work Project",
       title: "Web Traffic Analysis for Conversion Rate Improvement",
-      description: "Analyzed website traffic data using Python and Google Analytics for Zoompare.",
-      contributions: ["Performed web traffic analysis", "Implemented A/B testing", "Aligned findings with engineering teams"],
+      description: "Analyzed website traffic patterns using Python and Google Analytics for Zoompare.",
+      contributions: ["Performed web traffic analysis to identify bottlenecks", "Implemented A/B testing frameworks", "Collaborated with engineering to prioritize optimizations"],
       links: {},
       icon: "📈"
     },
     {
       category: "Work Project",
       title: "Customer Segmentation using Clustering Analysis",
-      description: "Applied K-means clustering to customer data and visualized resulting segments for Rubixe.",
-      contributions: ["Implemented K-means clustering algorithm", "Evaluated and visualized distinct customer segments"],
+      description: "Applied K-means clustering to customer data for Rubixe. The visualizations helped the marketing team actually understand their different customer groups.",
+      contributions: ["Implemented K-means clustering algorithm", "Evaluated optimal cluster count and visualized distinct segments"],
       links: {},
       icon: "👥"
     },
     {
       category: "Work Project",
       title: "Lead Quality Prediction",
-      description: "Explored data and utilized multiple models to predict lead quality for sales prioritization for Rubixe.",
+      description: "Built a model to predict lead quality for the sales team at Rubixe, helping them focus on the most promising prospects.",
       links: {},
       icon: "🎯"
     },
     {
       category: "Work Project",
       title: "Movie Recommendation System",
-      description: "Developed a collaborative filtering-based recommendation system for personalized movie suggestions for Rubixe.",
+      description: "Developed a collaborative filtering-based recommendation system for Rubixe. A fun project that got me hooked on recommendation engines.",
       links: {},
       icon: "🎬"
     },
     {
       category: "Work Project",
       title: "Sentiment Analysis of Customer Reviews",
-      description: "Analyzed sentiment in customer reviews using NLP techniques for Sentix.",
+      description: "Analyzed sentiment in customer reviews using NLP techniques for Sentix. Learned a lot about the nuances of text processing.",
       links: {},
       icon: "💬"
     },
     {
       category: "Work Project",
       title: "Predictive Maintenance System",
-      description: "Developed a predictive maintenance system to anticipate equipment failures for TechCorp.",
+      description: "Worked on developing a system to predict equipment failures for TechCorp, helping reduce downtime costs.",
       links: {},
       icon: "🛠️"
     },
     {
       category: "Fun Project",
       title: "Expense Tracker",
-      description: "Web application for tracking personal expenses with data visualization and CSV import/export functionality.",
+      description: "Built this for myself first. A simple web app for tracking expenses with visualizations and CSV import/export. Actually use it daily.",
       links: {
         live: "https://expense-tail.vercel.app/",
         github: "https://github.com/tanmay-kalbande/Expense-Tracker"
@@ -147,7 +149,7 @@ Feel free to explore and get in touch!
     {
       category: "Fun Project",
       title: "Table Extractor",
-      description: "A Flask web app for extracting tables from web pages, using BeautifulSoup and DataTables.",
+      description: "A Flask web app that extracts tables from web pages. Created it after manually copy-pasting data one too many times.",
       links: {
         live: "https://table-extractor.onrender.com/",
         github: "https://github.com/tanmay-kalbande/table-extractor-app"
@@ -157,7 +159,7 @@ Feel free to explore and get in touch!
     {
       category: "Fun Project",
       title: "Goal Tracker",
-      description: "Helps you achieve your goals one day at a time!",
+      description: "Because I needed something to help me stay consistent. Simple, effective, and actually helps me achieve goals one day at a time.",
       links: {
         live: "https://tanmay-kalbande.github.io/Goal-Tracker/",
         github: "https://github.com/tanmay-kalbande/Goal-Tracker"
@@ -167,7 +169,7 @@ Feel free to explore and get in touch!
     {
       category: "Fun Project",
       title: "The Scam Master Podcast",
-      description: "Exposes fraudsters and provides guidance to outwit them.",
+      description: "Started this to help people recognize and avoid scams. Exposes common fraud tactics and provides practical guidance.",
       links: {
         website: "https://the-scam-master.vercel.app/",
         instagram: "https://www.instagram.com/the_scam_master/",
@@ -178,7 +180,7 @@ Feel free to explore and get in touch!
     {
       category: "Fun Project",
       title: "Incident Tracker",
-      description: "Tool to record, track, and manage incidents efficiently.",
+      description: "A straightforward tool to record and track incidents. Built it for a friend's team and ended up being pretty useful.",
       links: {
         live: "https://tanmay-kalbande.github.io/Incident-Tracker/",
         github: "https://github.com/tanmay-kalbande/Incident-Tracker"
@@ -188,7 +190,7 @@ Feel free to explore and get in touch!
     {
       category: "AI Project",
       title: "Bias & Fairness Checker [AI]",
-      description: "AI tool to detect potential biases in text and suggest inclusive language improvements.",
+      description: "An AI tool I built to detect potential biases in text and suggest more inclusive language. Part of my interest in ethical AI development.",
       links: {
         live: "https://bias-checker.onrender.com/",
         github: "https://github.com/tanmay-kalbande/bias-fairness-checker"
@@ -198,7 +200,7 @@ Feel free to explore and get in touch!
     {
       category: "AI Project",
       title: "AI Data Structurer [AI]",
-      description: "AI-powered web app that transforms unstructured data into organized formats.",
+      description: "Transforms unstructured data into organized formats using AI. Made my life easier, hopefully makes yours easier too.",
       links: {
         github: "https://github.com/tanmay-kalbande/ai-data-structurer"
       },
@@ -207,7 +209,7 @@ Feel free to explore and get in touch!
     {
       category: "Fun Project",
       title: "Enhanced macOS Notes",
-      description: "Web-based note-taking app mimicking macOS aesthetics, with dark mode and rich text formatting.",
+      description: "I love macOS aesthetics, so I built a web-based note-taking app that mimics it. Dark mode included, obviously.",
       links: {
         live: "https://enhanced-mac-os-notes.vercel.app/",
         github: "https://github.com/tanmay-kalbande/Enhanced-macOS-Notes"
@@ -217,7 +219,7 @@ Feel free to explore and get in touch!
     {
       category: "Fun Project",
       title: "Life Loops - Game Edition",
-      description: "Gamified habit-tracking web app with a retro-styled point system.",
+      description: "Gamified my habit tracking because regular trackers were boring. Retro-styled points system keeps it fun.",
       links: {
         live: "https://life-loops-game-edition.vercel.app/",
         github: "https://github.com/tanmay-kalbande/Life-Loops---Game-Edition"
@@ -227,14 +229,14 @@ Feel free to explore and get in touch!
     {
       category: "Fun Project",
       title: "Jawala Vyapar",
-      description: "Online phone directory for local businesses with category filtering and multi-language support.",
+      description: "Online phone directory for local businesses. Built it to help people in my community find services easier.",
       links: {},
       icon: "📒"
     },
     {
       category: "Fun Project",
       title: "Mindfulness App",
-      description: "Simple mindfulness web app with yoga and meditation guides.",
+      description: "A simple mindfulness web app with yoga and meditation guides. I use it when I need to step away from the screen.",
       links: {
         live: "https://breathewell.vercel.app/",
         github: "https://github.com/tanmay-kalbande/Mindfulness-App"
@@ -244,14 +246,14 @@ Feel free to explore and get in touch!
     {
       category: "AI Project",
       title: "Report Generator [AI]",
-      description: "AI-powered tool to capture data and generate insights for business decisions using Python.",
+      description: "Built this to automate repetitive reporting tasks. Captures data and generates insights for business decisions using Python and AI.",
       links: {},
       icon: "📄"
     },
     {
       category: "BI Dashboard",
       title: "Power BI: Data Wave Metrics in India",
-      description: "Explores wireless data usage and ARPU metrics, with insights into quarterly revenue and data consumption trends.",
+      description: "A dashboard exploring wireless data usage and ARPU metrics in India. Includes insights into quarterly revenue and consumption trends.",
       links: {},
       icon: "📊",
       appId: 'data_wave_dashboard'
@@ -273,25 +275,24 @@ export const secretProjects = [
     {
       icon: "🌌",
       title: "Project Nebula",
-      description: "A generative art project using GANs to create unique cosmic visuals based on user-inputted text prompts. Explores the intersection of AI creativity and astronomy."
+      description: "Experimenting with GANs to create cosmic visuals from text prompts. It's my way of exploring where AI creativity meets astronomy—still very much a work in progress."
     },
     {
       icon: "🎵",
       title: "AI Music Composer",
-      description: "A recurrent neural network (RNN) trained on classical music datasets to compose short, original MIDI melodies. A fun exploration into algorithmic composition."
+      description: "Training an RNN on classical music to compose short MIDI melodies. More of a fun learning project than anything groundbreaking, but it's fascinating to see what patterns it picks up."
     },
     {
       icon: "📈",
       title: "Real-time Stock Anomaly Detector",
-      description: "A conceptual project to use unsupervised learning models (like Isolation Forest) to detect unusual trading patterns in real-time stock market data streams."
+      description: "A conceptual project using unsupervised learning (thinking Isolation Forest) to spot unusual trading patterns. Currently in the 'interesting idea' phase."
     },
     {
       icon: "🤖",
       title: "TinyML Keyword Spotting",
-      description: "An experiment in deploying a lightweight neural network on a microcontroller (like an Arduino Nano) to recognize custom keywords (e.g., 'Hey, Portfolio!')."
+      description: "Trying to deploy a lightweight neural network on an Arduino to recognize custom keywords. TinyML fascinates me—bringing AI to tiny devices feels like the future."
     }
 ];
-
 
 export const caseStudies: CaseStudy[] = [
     {
@@ -300,38 +301,38 @@ export const caseStudies: CaseStudy[] = [
         subtitle: "by Tanmay Kalbande",
         date: "September 11, 2025",
         project: "Pustakam",
-        snippet: "I'll be honest Pustakam exists because I'm terrible at following through on learning projects. Picture this: I'd get excited about learning... I'd have three browser tabs still open, half-watched videos, and exactly zero understanding. Sound familiar?",
+        snippet: "I'll be honest—Pustakam exists because I'm terrible at following through on learning projects. Picture this: I'd get excited about learning something new, bookmark fifteen articles, queue up six tutorials, download two PDFs... and three weeks later? Three browser tabs still open, half-watched videos, and exactly zero understanding. Sound familiar?",
         content: `![Pustakam Analytics Dashboard](https://cdn.jsdelivr.net/gh/continentalstorage888-ops/didactic-meme@main/Screenshot%202025-10-30%20at%2021-57-41%20Pustakam%20AI%20Book%20Generation%20Engine.png)
 
 ### The Problem
-I'm terrible at following through on learning projects. I'd get excited about a new topic, bookmark fifteen articles, queue up six tutorials, and download two PDFs. Three weeks later, I'd have scattered resources, half-watched videos, and zero actual understanding. The problem wasn't a lack of information, but that it was inconsistent, aimed at different audiences, and lacked a cohesive structure. I needed a single, perfectly tailored book for what I wanted to learn.
+I'm terrible at following through on learning projects. I'd get excited about a new topic, bookmark fifteen articles, queue up six tutorials, and download two PDFs. Three weeks later, I'd have scattered resources, half-watched videos, and zero actual understanding. The problem wasn't a lack of information—it was that everything was inconsistent, aimed at different audiences, and lacked cohesive structure. I needed a single, perfectly tailored book for what I wanted to learn.
 
 ### My Approach
-I had a simple realization: what if I could make an AI write that book? Not just a single ChatGPT dump, but a structured, coherent book with chapters that build on each other, a logical table of contents, and consistency from start to finish. This led to the creation of Pustakam, an AI-powered book generation engine.
+I had a simple realization: what if I could make an AI write that book? Not just a single ChatGPT dump, but a structured, coherent book with chapters that build on each other, a logical table of contents, and consistency from start to finish. This led to Pustakam, an AI-powered book generation engine.
 
 ### Challenges Faced
-My initial plan to "just ask GPT to write a book" failed spectacularly. The output was a rambling, repetitive mess. The real challenge was maintaining context and consistency across multiple, sequential API calls. Generating a full book in one go overwhelmed the AI, but breaking it up lost the thread between chapters.
+My initial plan to "just ask GPT to write a book" failed spectacularly. The output was rambling and repetitive. The real challenge was maintaining context across multiple API calls. Generating a full book in one go overwhelmed the AI, but breaking it up meant losing the thread between chapters.
 
-Another significant challenge was managing the UI state during a long, sequential generation process. The app needed to show progress, handle errors, and remain responsive for several minutes while generating a roadmap, 8+ chapters, and supplementary content. TypeScript was crucial for managing this complexity.
+Managing UI state during a long generation process was another headache. The app needed to show progress, handle errors, and stay responsive for several minutes while generating a roadmap, 8+ chapters, and supplementary content. TypeScript saved me here.
 
 ### Solution Architecture
-After many failed attempts, I developed a four-step process that worked:
-1.  **Define the Scope:** The user specifies not just the topic, but the target audience and assumed prior knowledge.
-2.  **AI Proposes a Roadmap:** The AI first generates a detailed outline (table of contents). This allows the user to validate the structure before committing to a full generation.
-3.  **Sequential Generation with Memory:** This was the breakthrough. When generating a chapter, the AI is fed a summary of the preceding chapters. This "memory" ensures context is maintained.
-4.  **Final Polish:** The AI writes an introduction, conclusion, and glossary based on the complete, generated content, which is then stitched into clean Markdown.
+After many failed attempts, I developed a four-step process:
+1.  **Define the Scope:** Users specify the topic, target audience, and assumed prior knowledge.
+2.  **AI Proposes a Roadmap:** The AI generates a detailed outline first. Users can validate before committing to full generation.
+3.  **Sequential Generation with Memory:** The breakthrough. When generating a chapter, the AI gets a summary of preceding chapters. This "memory" maintains context.
+4.  **Final Polish:** The AI writes an introduction, conclusion, and glossary based on complete content, stitched into clean Markdown.
 
-For the tech stack, I prioritized privacy and flexibility. The app is **local-first**, with all data and API keys stored in the browser's local storage. This eliminates server costs and privacy concerns. It also supports **multiple AI models** (Gemini, Mistral, ZhipuAI), allowing users to choose the best tool for their topic and budget.
+For tech stack, I prioritized privacy and flexibility. The app is **local-first**, with all data and API keys in browser storage. No servers, no privacy concerns. It supports **multiple AI models** (Gemini, Mistral, ZhipuAI), letting users choose what works best.
 
 ### Results & Impact
-Pustakam successfully transforms a user prompt into a structured, downloadable book. Key features I'm proud of include:
--   **The Analytics Dashboard:** After generation, the app provides metrics like reading time, complexity score, and topic breakdown, making the output feel more tangible.
--   **A Polished Reading Experience:** I invested significant time in typography and spacing to ensure the digital output felt like a real book.
--   **Clean Markdown Export:** The final book is exported in a universal, non-proprietary format, giving the user full ownership.
+Pustakam transforms a prompt into a structured, downloadable book. Features I'm proud of:
+-   **Analytics Dashboard:** Post-generation metrics like reading time, complexity score, and topic breakdown.
+-   **Polished Reading Experience:** I spent way too much time on typography and spacing to make it feel like a real book.
+-   **Clean Markdown Export:** Universal format. You own your book.
 
-While Pustakam won't replace expert-written literature, it serves as a powerful tool for rapidly generating a structured learning resource on a specific topic, solving the initial problem of scattered and inconsistent information.
+Won't replace expert literature, but it's a powerful tool for rapidly generating structured learning resources on specific topics—solving my original problem of scattered information.
 
-You can try it here: [https://pustakam-ai.vercel.app/](https://pustakam-ai.vercel.app/)
+Try it: [https://pustakam-ai.vercel.app/](https://pustakam-ai.vercel.app/)
 `
     },
     {
@@ -340,37 +341,37 @@ You can try it here: [https://pustakam-ai.vercel.app/](https://pustakam-ai.verce
         subtitle: "by Tanmay Kalbande",
         date: "October 19, 2025",
         project: "Ai-Tutor",
-        snippet: "I built Ai-Tutor because I was already obsessed with Gemma and wanted an excuse to use it more. Here's what my study sessions looked like: one AI chat open for explanations. Another tab for generating practice questions. My notes app buried somewhere.",
+        snippet: "Honestly? I built Ai-Tutor because I was already obsessed with Gemma and wanted an excuse to use it more. But also, my study sessions were chaos: one AI chat open for explanations, another tab for generating practice questions, my notes app buried somewhere...",
         content: `![Ai-Tutor Welcome Screen](https://cdn.jsdelivr.net/gh/continentalstorage888-ops/didactic-meme@main/ai-tutot-welcome-screen.png)
 
 ### The Problem
-My study workflow was chaos. I'd have one AI chat open for explanations, another for generating practice questions, my notes app buried somewhere, and a dozen other browser tabs I'd opened days ago. By the end of a session, I'd have useful information scattered everywhere with no cohesive structure. The tools were fine, but the process was inefficient and disorganized. I needed a single, integrated environment to chat, generate quizzes, take notes, and visualize my learning journey.
+My study workflow was pure chaos. One AI chat for explanations, another for practice questions, my notes app buried somewhere, and a dozen tabs I'd opened days ago. By the end of a session, useful information was scattered everywhere with no structure. The tools were fine, but my process was a mess. I needed a single environment to chat, generate quizzes, take notes, and visualize my learning journey.
 
 ### My Approach
-I decided to build a unified learning platform centered around Google's Gemma model, which I found to be exceptionally clear and effective for tutoring. The goal was to create a clean, clutter-free interface where a user could pick an AI persona and have all their learning tools in one place. This became Ai-Tutor, a project I built over four weeks of nights and weekends.
+I decided to build a unified learning platform around Google's Gemma model, which I found exceptionally clear for tutoring. The goal: a clean interface where you pick an AI persona and have all your learning tools in one place. This became Ai-Tutor, built over four weeks of nights and weekends.
 
 ### Challenges Faced
-The most difficult feature to implement was the **learning flowchart**. The initial idea was to visualize the conversation as a mind map. My first attempts produced messy, unreadable diagrams with too many nodes and confusing connections. My second attempt to improve the prompt was better but still resulted in a static, non-interactive SVG.
+The **learning flowchart** was brutal to implement. Initial idea: visualize conversations as a mind map. First attempts produced messy, unreadable diagrams. Second attempt: better prompts, but still resulted in static, non-interactive SVGs.
 
-The breakthrough came when I realized the flowchart wasn't for documentation, but for reflection. I rebuilt it from scratch to have the AI analyze the conversation and produce a structured learning map of only the key concepts and their relationships. I then used an interactive canvas that supported zooming and panning, which finally made the feature useful.
+The breakthrough: the flowchart wasn't for documentation—it was for reflection. I rebuilt it from scratch. The AI now analyzes conversations and produces a structured map of key concepts and relationships. Added an interactive canvas with zoom and pan. Finally useful.
 
 ### Solution Architecture
-Ai-Tutor is built on several core features designed to create a personalized and effective learning environment:
--   **Gemma-centric Design:** The app is foundationally built to leverage the strengths of Google's Gemma model, with Mistral and ZhipuAI available as alternatives.
--   **AI Personas:** Users can choose from four distinct personas (Friendly Mentor, Exam Coach, etc.). This allows the user to match the AI's teaching style to their current learning mood, which has a significant impact on the experience.
--   **Context-Aware Quizzes:** Instead of generic questions, the quiz feature analyzes the entire conversation history to generate questions specifically about the concepts the user has been learning and struggling with.
--   **Interactive Learning Flowchart:** Visualizes the user's conversation as an interactive knowledge map, showing how questions and concepts connect.
--   **Local-First Persistence:** All conversations and notes are saved to the browser's local storage, ensuring privacy and instant loading.
+Ai-Tutor's core features:
+-   **Gemma-centric Design:** Built to leverage Gemma's strengths, with Mistral and ZhipuAI as alternatives.
+-   **AI Personas:** Four distinct teaching styles (Friendly Mentor, Exam Coach, etc.). Match the AI to your mood—it matters more than you'd think.
+-   **Context-Aware Quizzes:** Analyzes your conversation history to generate questions about concepts you've been learning and struggling with. Way better than generic quiz generators.
+-   **Interactive Learning Flowchart:** Visualizes your conversation as an interactive knowledge map showing how concepts connect.
+-   **Local-First Persistence:** Everything saved to browser storage. Private and instant loading.
 
 ### Results & Impact
-Ai-Tutor successfully consolidates a scattered learning workflow into a single, cohesive application.
--   The persona system proved to be a genuinely useful feature, not just a gimmick.
--   Context-aware quizzes provide a much more effective way to test retention compared to generic quiz generators.
--   The interactive flowchart, despite its challenges, offers a unique way for users to reflect on and understand the structure of what they've learned.
+Ai-Tutor consolidates scattered workflows into one cohesive app.
+-   Persona system: genuinely useful, not just a gimmick.
+-   Context-aware quizzes: much more effective for testing retention.
+-   Interactive flowchart: despite challenges, offers a unique way to reflect on learning structure.
 
-The project reinforced that for AI applications, the user experience and workflow design are just as important as the underlying model. It's a Progressive Web App (PWA), so it can be installed like a native app.
+The project taught me that for AI apps, UX and workflow design are as important as the model. It's a Progressive Web App (PWA), so you can install it like a native app.
 
-Check it out here: [https://ai-tutor-test-it-out-here.vercel.app/](https://ai-tutor-test-it-out-here.vercel.app/)
+Check it out: [https://ai-tutor-test-it-out-here.vercel.app/](https://ai-tutor-test-it-out-here.vercel.app/)
 `
     }
 ];
@@ -383,8 +384,8 @@ export const mediumArticles: MediumArticle[] = [
         link: "https://medium.com/@tanmaykalbande/life-as-a-ctf-challenge-how-to-hack-your-personal-growth-bc0b73069dd5"
     },
     {
-        title: "The Silent Urge: Why We’re All Secretly Chasing Belonging",
-        snippet: "We like to pretend we don’t care. We claim independence, declaring, “I don’t need anyone!” But deep down, even the most rebellious souls…",
+        title: "The Silent Urge: Why We're All Secretly Chasing Belonging",
+        snippet: "We like to pretend we don't care. We claim independence, declaring, "I don't need anyone!" But deep down, even the most rebellious souls…",
         date: "January 27, 2024",
         link: "https://medium.com/@tanmaykalbande/the-silent-urge-why-were-all-secretly-chasing-belonging-d6e57e0e22fe"
     },
@@ -395,8 +396,8 @@ export const mediumArticles: MediumArticle[] = [
         link: "https://medium.com/@tanmaykalbande/living-fully-in-a-world-where-time-only-moves-forward-37b128bd0e96"
     },
     {
-        title: "The Power of Life’s Loops: Understanding Our Daily Patterns",
-        snippet: "Life is a series of repetitions. When we hear the word “loop,” we instantly think of actions or patterns that repeat themselves in our…",
+        title: "The Power of Life's Loops: Understanding Our Daily Patterns",
+        snippet: "Life is a series of repetitions. When we hear the word "loop," we instantly think of actions or patterns that repeat themselves in our…",
         date: "January 21, 2024",
         link: "https://medium.com/@tanmaykalbande/the-power-of-lifes-loops-understanding-our-daily-patterns-1191b0fa19d0"
     }
