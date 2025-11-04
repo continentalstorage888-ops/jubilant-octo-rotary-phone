@@ -397,7 +397,7 @@ export const mediumArticles: MediumArticle[] = [
     },
     {
         title: "The Power of Life's Loops: Understanding Our Daily Patterns",
-        snippet: "Life is a series of repetitions. When we hear the word "loop," we instantly think of actions or patterns that repeat themselves in our…",
+        snippet: "Life is a series of repetitions. When we hear the word \"loop,\" we instantly think of actions or patterns that repeat themselves in our…",
         date: "January 21, 2024",
         link: "https://medium.com/@tanmaykalbande/the-power-of-lifes-loops-understanding-our-daily-patterns-1191b0fa19d0"
     }
