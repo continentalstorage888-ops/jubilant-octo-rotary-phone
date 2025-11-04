@@ -385,7 +385,7 @@ export const mediumArticles: MediumArticle[] = [
     },
     {
         title: "The Silent Urge: Why We're All Secretly Chasing Belonging",
-        snippet: "We like to pretend we don't care. We claim independence, declaring, "I don't need anyone!" But deep down, even the most rebellious souls…",
+        snippet: "We like to pretend we don't care. We claim independence, declaring, \"I don't need anyone!\" But deep down, even the most rebellious souls…",
         date: "January 27, 2024",
         link: "https://medium.com/@tanmaykalbande/the-silent-urge-why-were-all-secretly-chasing-belonging-d6e57e0e22fe"
     },
